@@ -99,8 +99,7 @@ def generatePredictions(df, N=7):
 def getNews():
     '''Get the latest news from https://newsapi.org/.'''
     # headers
-    headers = {'Authorization': 'b2e0b5b27daa433ca04f00014e84396d'}
-    #headers = {'Authentication':'<Enter the News API token here.>'}
+    headers = {'Authentication':'<Enter the News API token here.>'}
 
     # news articles
     everythingNewsUrl = 'https://newsapi.org/v2/everything'
