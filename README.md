@@ -1,1 +1,1 @@
-# miniature-train
+# COVID-19-Forecaster
