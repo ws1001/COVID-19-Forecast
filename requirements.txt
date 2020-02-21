@@ -1,0 +1,9 @@
+dash
+theano
+matplotlib
+numpy
+pandas>=0.23.0
+pymc3
+arviz
+pmprophet
+requests
