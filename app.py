@@ -12,7 +12,6 @@ from pmprophet.model import PMProphet, Sampler
 import requests
 from newsapi import NewsApiClient
 import json
-import plotly.express as px
 
 
 
