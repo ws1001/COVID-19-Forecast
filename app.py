@@ -2,7 +2,6 @@ import dash
 import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Output, Input, State
 import plotly.graph_objs as go
 import datetime as dt
 import pandas as pd
@@ -97,7 +96,7 @@ def generatePredictions(df, N=7):
 def getNews():
     '''Get the latest news from https://newsapi.org/.'''
     # headers
-    headers = {'Authorization': '<Enter News API token here.>'}
+    headers = {'Authorization': '<Enter News API here.>'}
 
     # news articles
     everythingNewsUrl = 'https://newsapi.org/v2/everything'
