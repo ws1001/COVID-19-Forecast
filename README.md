@@ -1,1 +1,1 @@
-# COVID-19-Forecaster
+# COVID-19-Forecast
