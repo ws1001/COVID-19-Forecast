@@ -3,7 +3,6 @@ import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Output, Input, State
-from dateutil.relativedelta import relativedelta
 import plotly.graph_objs as go
 import datetime as dt
 import pandas as pd
