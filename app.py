@@ -67,7 +67,7 @@ def getTotal(url):
 
 
 def generatePredictions(df, N=7):
-    '''Generate forecast future using Generalized Additive Models (GAM) which generalizes FBProphet.
+    '''Generate forecast using Generalized Additive Models (GAM) which generalizes FBProphet.
     Input:
     ======
         df: dataframe
@@ -99,7 +99,7 @@ def generatePredictions(df, N=7):
 def getNews():
     '''Get the latest news from https://newsapi.org/.'''
     # headers
-    headers = {'Authentication':'<Enter the News API token here.>'}
+    headers = {'Authorization': '<Enter News API token here.>'}
 
     # news articles
     everythingNewsUrl = 'https://newsapi.org/v2/everything'
